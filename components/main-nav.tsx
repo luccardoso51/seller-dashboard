@@ -21,9 +21,9 @@ function MainNav(
             active: pathname === "/dashboard"
         },
         {
-            href:`/dashboard/pedidos`,
+            href:`/pedidos`,
             label: "Pedidos",
-            active: pathname === "/dashboard/pedidos"
+            active: pathname === "/pedidos"
         }
     ]
 

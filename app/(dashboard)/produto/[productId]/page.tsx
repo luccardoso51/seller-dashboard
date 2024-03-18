@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useState } from 'react';
 import ProductForm from './components/product-form';
 
 
@@ -13,11 +12,10 @@ function ProductPage({
 
 
     return (
-        <div>
-        <h1>Produto ID:{params.productId} </h1>
-        {/* Outros componentes da página */}
-
-        <ProductForm/>
+     <div className='flex-col'>
+        <div className='flex-1 p-8 space-y-4 pt-6'>
+        <ProductForm productId={params.productId}/>
+        </div>
       </div>
     );
 }
