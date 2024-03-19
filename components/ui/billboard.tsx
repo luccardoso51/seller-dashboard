@@ -4,7 +4,7 @@ interface BillboardProps {
   data: Billboard;
 }
 
-const Billboard: React.FC<BillboardProps> = ({
+const BillboardCard: React.FC<BillboardProps> = ({
   data
 }) => {
   console
@@ -21,4 +21,4 @@ const Billboard: React.FC<BillboardProps> = ({
    );
 };
 
-export default Billboard;
+export default BillboardCard;

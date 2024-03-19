@@ -1,11 +1,11 @@
 
 "use client"
 
-import Billboard from "@/components/ui/bilboard";
 import Container from "@/components/ui/container";
 import { useRouter } from "next/navigation";
 import produtos from "../dashboard/components/products-array";
 import ProductList from "@/components/product-list";
+import BillboardCard from "@/components/ui/billboard";
 
 
 
@@ -24,7 +24,7 @@ const billboard = {
   return (
     <Container>
       <div className="space-y-10 pb-10">
-        <Billboard 
+        <BillboardCard
           data={billboard}
         />
         <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
