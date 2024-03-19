@@ -20,7 +20,6 @@ import Image from "next/image"
 import { findProductById } from "@/app/(routes)/dashboard/components/products-array"
 import { Heading } from "@/components/ui/heading"
 import { Separator } from "@/components/ui/separator"
-import { ImageOff } from "lucide-react"
 import {
     Carousel,
     CarouselContent,

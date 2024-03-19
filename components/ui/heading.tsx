@@ -1,5 +1,5 @@
 interface HeadingProps {
-    title: string;
+    title: string | undefined;
     description: string;
 }
 
