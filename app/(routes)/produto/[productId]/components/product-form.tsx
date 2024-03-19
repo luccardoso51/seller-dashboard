@@ -71,7 +71,7 @@ function ProductForm({
       return (
       <>
         <div className="flex items-center justify-between">
-        <Heading title={product?.name} description={"aaa"} />
+        <Heading title={product?.name} description={"Veja detalhes do produto"} />
         </div>
         <Separator />
         <Form {...form}>
