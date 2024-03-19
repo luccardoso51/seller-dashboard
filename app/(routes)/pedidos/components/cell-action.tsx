@@ -1,6 +1,6 @@
 "use client"
 
-import { ProductColumn } from "./columns";
+import { OrderColumn } from "./columns";
 import { 
     DropdownMenu, 
     DropdownMenuContent, 
@@ -30,7 +30,7 @@ import { useState } from "react";
   
 
 interface CellActionProps{
-    data: ProductColumn
+    data: OrderColumn
 }
 
 
@@ -75,11 +75,11 @@ export const CellAction: React.FC<CellActionProps> = ({
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
           <DropdownMenuLabel>Ações</DropdownMenuLabel>
-          <DropdownMenuItem
+          {/* <DropdownMenuItem
             onClick={() => router.push(`/produto/${data.id}`)}
           >
             <Edit className="mr-2 h-4 w-4" /> Atualizar
-          </DropdownMenuItem>
+          </DropdownMenuItem> */}
           <DropdownMenuItem>
             <Trash className="mr-2 h-4 w-4" />
             <AlertModal/>      
